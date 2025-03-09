@@ -10,7 +10,7 @@ df = pd.read_csv(file_path)
 
 # 2️⃣ 입력(X)과 출력(y) 분리
 X = df[['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth']]  # 입력값
-y = df['Name']  # 출력값 (품종)
+y = df['Name']  # 출력값 
 
 # 3️⃣ 라벨 인코딩 (품종을 숫자로 변환)
 encoder = LabelEncoder()
@@ -36,7 +36,6 @@ sample_X = X_test.iloc[sample_idx]  # 입력값 (꽃받침, 꽃잎 데이터)
 sample_y_true = y_test[sample_idx]  # 실제 품종
 sample_y_pred = dt_model.predict(sample_X)  # 예측 품종
 
-# 결과 출력
 print("\n🎯 테스트 데이터 예측 결과 (5개 샘플)")
 print("----------------------------------------------------------------------------------------")
 print(" SepalLength | SepalWidth | PetalLength | PetalWidth |   실제 품종 (True)   |   예측 품종 (Predicted)")
