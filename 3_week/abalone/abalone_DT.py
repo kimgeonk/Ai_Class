@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor # regressor(회귀)를 사용함
-from sklearn.metrics import mean_squared_error # 분류와 다르게 accuarcy를 사용하지 않음
+from sklearn.metrics import mean_squared_error # 분류와 다르게 accuarcy를 사용하지 않음(mse)
 import seaborn as sns
 import matplotlib.pyplot as plt
 
