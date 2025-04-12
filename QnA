@@ -1,34 +1,73 @@
 Q1. 인공지능에서 지능에 해당하는 기능은 무엇인가?
-A1. 
-2. 인공지능의 종류 3가지에 대해서 설명하시오 (지도학습, 반지도학습, 강화학습)
-3. 전통적인 프로그래밍 방법과 인공지능 프로그램의 차이점은 무엇인가?
-4. 딥러닝과 머신러닝의 차이점은 무엇인가?
-5. Classification과 Regression의 주된 차이점은?
-6. 머신러닝에서 차원의 저주(curse of dimensionality)란?
-7. Dimensionality Reduction는 왜 필요한가?
-8. Ridge와 Lasso의 공통점과 차이점? (Regularization, 규제 , Scaling)
-9. Overfitting vs. Underfitting
-Feature Engineering과 Feature Selection의 차이점은?
-전처리(Preprocessing)의 목적과 방법? (노이즈, 이상치, 결측치)
-EDA(Explorary Data Analysis)란? 데이터의 특성 파악(분포, 상관관계)
-회귀에서 절편과 기울기가 의미하는 바는? 딥러닝과 어떻게 연관되는가?
-Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는?
-Forward propagation, Backward propagation이란?
-손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
-옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
-경사하강법 의미는? (확률적 경사하강법, 배치 경사하강법, 미치 배치경사하강법)
-교차검증, K-fold 교차검증의 의미와 차이
-하이퍼파라미터 튜닝이란 무엇인가?
-CNN의 합성곱의 역활은?
-CNN의 풀링층의 역활은?
-CNN의 Dense Layer의 역활은?
-CNN의 stride, filter의 역활? 필터의 가중치는 어떻게 결정되는가?
-RNN을 사용하는 이유와 한계점은?
-LSTM을 사용하는 이유와 한계점은?
-GRU을 사용하는 이유와 차별성은?
-결정트리에서 불순도(Impurity) – 지니 계수(Gini Index)란 무엇인가?
-앙상블이란 무엇인가?
-부트 스트랩핑(bootstraping)이란 무엇인가?
-배깅(Bagging)이란 무엇인가?
-주성분 분석(PCA) 이란 무엇인가?
-Dense Layer란 무엇인가?
+A1. 문제를 해결하기 위해 학습하고 이해하는 능력으로 인간의 인지적인 기능을 모방하여 문제를 해결하기 위해 학습하고 이해하는 것, 크게 분류와 회귀로 나눠짐
+분류 : 이상적인 값을 예측
+회귀 : 연속된 값에서 1개의 값을 예측 
+
+Q2. 인공지능의 종류 3가지에 대해서 설명하시오 (지도학습, 반지도학습, 강화학습)
+A2. 지도학습 : 라벨이 있는 데이터를 입력하여 입력을 출력 매핑하여 일반적인 규칙을 학습
+반지도학습 : 라벨이 없는 데이터를 입력하여 데이터의 패턴을 발견하여 학습
+강화학습 : 보상이나 처벌을 통해 더 좋은 방법으로 학습 
+
+Q3. 전통적인 프로그래밍 방법과 인공지능 프로그램의 차이점은 무엇인가?
+A3. 전통적인 프로그램은 프로그래머가 규칙을 만들어 데이터를 처리하지만 인공지능 프로그램은 학습을 통해 스스로 규칙을 만들어 데이터를 처리한다. 
+
+Q4. 딥러닝과 머신러닝의 차이점은 무엇인가?
+A4. 머신러닝은 컴퓨터가 주어진 데이터를 학습하여 알고리즘 성능을 개선해 나가는 것으로 데이터의 특성을 추출하여 모델에 넣고 룰을 생성한다.
+딥러닝은 신경망의 학습 알고리즘으로 원본 데이터를 모델에 넣어 모델에서 학습을 해 룰을 생성한다.
+
+Q5. Classification과 Regression의 주된 차이점은?
+A5. 분류 : 데이터를 특정 카테고리로 나누어 학습하는 방법으로 이상적인 값을 예측한다. ex) 사과, 배, 파인애플을 구분
+회귀 : 종속 변수와 독립 변수 간의 관계를 이해하는 지도 학습으로 연속된 값에서 하나의 값을 예측한다. ex) 집 값을 예측 
+
+Q6. 머신러닝에서 차원의 저주(curse of dimensionality)란?
+A6. 
+
+Q7. Dimensionality Reduction는 왜 필요한가?
+A7. 
+
+Q8. Ridge와 Lasso의 공통점과 차이점? (Regularization, 규제 , Scaling)
+A8. 
+
+Q9. Overfitting vs. Underfitting
+A9. 
+
+Q10. Feature Engineering과 Feature Selection의 차이점은?
+A10. 
+
+Q11. 전처리(Preprocessing)의 목적과 방법? (노이즈, 이상치, 결측치)
+A11. EDA(Explorary Data Analysis)란? 데이터의 특성 파악(분포, 상관관계)
+
+Q12. 회귀에서 절편과 기울기가 의미하는 바는? 딥러닝과 어떻게 연관되는가?
+A12.
+
+Q13. Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는?
+A13. Forward propagation, Backward propagation이란?
+
+Q14. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
+A14. 
+
+Q15. 옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
+Q15. 
+
+Q16. 경사하강법 의미는? (확률적 경사하강법, 배치 경사하강법, 미치 배치경사하강법)
+A16. 
+Q17. 교차검증, K-fold 교차검증의 의미와 차이
+A17.
+
+Q18. 하이퍼파라미터 튜닝이란 무엇인가?
+A18. 
+
+Q19. 결정트리에서 불순도(Impurity) – 지니 계수(Gini Index)란 무엇인가?
+Q19. 
+
+Q20. 앙상블이란 무엇인가?
+A20. 
+
+Q21. 부트 스트랩핑(bootstraping)이란 무엇인가?
+A21. 배깅(Bagging)이란 무엇인가?
+
+Q22. 주성분 분석(PCA) 이란 무엇인가?
+A22. 
+
+Q23. Dense Layer란 무엇인가?
+A23. 
